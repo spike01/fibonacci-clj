@@ -30,10 +30,14 @@
   (testing "Sixth fibonacci"
     (is (= 8 (fib 6)))))
 
-;(deftest tenth-fib
-  ;(testing "Tenth fibonacci"
-    ;(is (= 10 (fib 55)))))
+(deftest seventh-fib
+  (testing "Seventh fibonacci"
+    (is (= 13 (fib 7)))))
 
-;(deftest twentieth-fib
-  ;(testing "Twentieth fibonacci"
-    ;(is (= 20 (fib 6765)))))
+deftest tenth-fib
+  (testing "Tenth fibonacci"
+    (is (= 55 (fib 10)))))
+
+(deftest twentieth-fib
+  (testing "Twentieth fibonacci"
+    (is (= 6765 (fib 20)))))
